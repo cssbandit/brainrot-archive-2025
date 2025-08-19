@@ -1,0 +1,6 @@
+# Netlify redirects file
+# Handle the main Italian Brainrot page
+/italian-brainrot /w/Italian%20Brainrot/%EB%93%B1%EC%9E%A5%20%EC%BA%90%EB%A6%AD%ED%84%B0/%EB%8B%A8%EC%97%AD%20%EC%BA%90%EB%A6%AD%ED%84%B0.html 200
+
+# Handle any 404s by redirecting to the main page
+/* /index.html 200
